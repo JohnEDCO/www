@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <script src="js/ejercicio1.js"></script>
+      <script src="js/ejercicio2.js"></script>
+      <script src="js/ejercicio3.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Taller 2 JavaScript</title> 
+  </head>
+  <body>
+  
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: BLACK">
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/escudo.png" width="30" height="30" class="d-inline-block align-top" >
+        Taller 2
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="# ">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Proximamente
+              </a>
+             
+            </li>
+      
+         
+                     
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscador" aria-label="Search">
+          <button class="btn btn-light my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+
+    
+  <!--Seccion api-->
+    <section id="empresa">
+      <div class="contenido-seccion">
+            <div class="container">
+               
+               <!-- inicio tabla -->
+    <div class="container my-5 text-center">
+        <button onclick="SumaArreglos()" type="button" class="btn btn-primary">Mostrar ejercicio 1</button>
+        
+        <button onclick="ColorCabello()" type="button" class="btn btn-primary">Mostrar ejercicio 2</button>
+
+        <button onclick="DuplicarContenido()" type="button" class="btn btn-primary">Mostrar ejercicio 3</button>
+
+        <div class="mt-5">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Resultado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td id="resultado1"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td id="resultado2"></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td id="resultado3"></td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">4</th>
+                        <td id="resultado4"></td>
+                      </tr>
+                  </tbody>
+
+            </table>
+        </div>
+    </div>
+
+ 
+     <!-- fin tabla -->
+            </div>        
+      </div>
+    </section>
+    <!--Fin Seccion api-->
+
+      
+      
+    
+
+    <!--footer-->
+     <div id="footer-main">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+                <p>Creado por John Edwar y Cristian</p>
+                <p>Desarrollado con <a href="https://getbootstrap.com/">Bootstrap</a></p>
+            </div>
+
+            <div class="col-sm-3">
+              <ul class="list-unstyled">
+                  <li><a href="">Inicio</a></li>
+                  <li><a href="">Acerca de</a></li>
+                  
+              </ul>
+          </div>
+
+            <div class="col-sm-3">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Twiter</a></li>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+           </div>
+
+           <div class="col-sm-3">
+                <p>Info</p>
+                <p>Comunicate por la linea 018000-2030040-399299387-3299399494949992939392-3029294848289293923-202020</p>
+           </div>
+          </div>
+        </div>
+    </div>
+    <!-- fin footer-->
+
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

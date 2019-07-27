@@ -1,0 +1,125 @@
+
+#footer-main{
+    background-color: maroon;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+/* cover */
+/*--------------------------------------------------------------------------------------- RM*/
+#cover {
+    background: #222 url('../imagenes/fondo.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+#cover-texto {
+    width: 100%;
+    
+}
+
+#cover-texto .form-inline{
+    width: 100%;
+}
+/*--------------------------------------------------------------------------------------- A(s)*/
+#principal {
+    background: #222 url('../imagenes/fondoIronM.jpg') center center no-repeat;
+    background-size: cover;
+    font-size: 250%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    height: 90%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+#principal-texto {
+    width: 100%;
+    
+}
+/*--------------------------------------------------------------------------------------- RM*/
+#formulario {
+    background: #222 url('../imagenes/fondo_formulario.jpg') center center no-repeat; 
+    background-size: cover;
+    color: black;
+    height: 110%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+#formulario-texto {
+    width: 100%;
+    
+}
+#formulario-texto .display-3{
+    text-align: center;
+    margin-bottom: 5%;
+}
+/*---------------------------------------------------------------------------------------A(s)*/
+.contenido-perfil {
+    padding: 5rem 0;
+}
+
+#perfil{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#perfil h2{ 
+    color:teal;
+    text-align: center;
+}
+#perfil h3{
+    margin-top: -2%;
+}
+
+#perfil p{
+    margin-top: 5%;
+} 
+
+.pefil-autor1 img{
+
+    float: left;
+    margin-right: 6%;
+}
+/*---------------------------------------------------------------------------------------A(s)*/
+
+
+/*---------------------------------------------------------------------------------------RM*/
+.contenido-seccion {
+    padding: 5rem 0;
+}
+/*---------------------------------------------------------------------------------------RM*/
+
+/*---------------------------------------------------------------------------------------RM*/
+#footer-main {
+    background: black;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+/*---------------------------------------------------------------------------------------RM*/
+#footer-autor {
+    background: #222 url('../imagenes/fondoOscuro.jpg') center center no-repeat; 
+    background-size: green;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+

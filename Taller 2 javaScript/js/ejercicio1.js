@@ -25,7 +25,7 @@ let suma=0;
 const a = [7, 6, 5, 4, 3];
 const b = [-3, -4, -5, -6, -7];
 const c = [33];
-
+function SumaArreglos(){
 if (arraySum(a) === 25 &&
     arraySum(b) === -25 &&
     arraySum(c) === 33) {
@@ -34,6 +34,12 @@ if (arraySum(a) === 25 &&
   console.log('b =' + arraySum(b));
   console.log('c ='+arraySum(c));
 
+  document.getElementById('resultado1').innerHTML = arraySum(a);    
+  document.getElementById('resultado2').innerHTML = arraySum(b);
+  document.getElementById('resultado3').innerHTML = arraySum(c);
 } else {
   console.log('Ejercicio 1 no paso la prueba!');
 }
+
+}
+

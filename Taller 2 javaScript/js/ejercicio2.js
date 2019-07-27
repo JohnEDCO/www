@@ -58,16 +58,25 @@ const persona4 = {
   colorCabello: 'Azul'
 };
 
+
 let personas1 = [persona1];
 let personas2 = [persona1, persona3];
 let personas3 = [persona1, persona2, persona3];
 let personas4 = [persona3, persona4];
-
+function ColorCabello(){
 if (colorCabello(personas1) === 'Rubio' &&
     colorCabello(personas2) === 'Rubio' &&
     colorCabello(personas3) === 'Cafe Oscuro' &&
 	colorCabello(personas4) === 'Azul') {
   console.log('Ejercicio 2 paso el test!');
+
+  document.getElementById('resultado1').innerHTML = colorCabello(personas1);
+  document.getElementById('resultado2').innerHTML = colorCabello(personas2);
+  document.getElementById('resultado3').innerHTML = colorCabello(personas3);
+  document.getElementById('resultado4').innerHTML = colorCabello(personas4);
+
 } else {
   console.log('Ejercicio 2 no paso el test!');
+}
+
 }
