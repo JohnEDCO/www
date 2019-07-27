@@ -25,6 +25,7 @@ let suma=0;
 const a = [7, 6, 5, 4, 3];
 const b = [-3, -4, -5, -6, -7];
 const c = [33];
+
 function SumaArreglos(){
 if (arraySum(a) === 25 &&
     arraySum(b) === -25 &&
