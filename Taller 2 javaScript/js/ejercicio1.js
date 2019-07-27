@@ -2,8 +2,8 @@
  *
  * Ejercicio 1: Implemente una funcion que retorne la suma de todos los elementos en el arreglo.
  *
- * Autor:
- * Fecha: 
+ * Autor: John Edward Cordoba R
+ * Fecha: 27/07/2019
  *
  */
  

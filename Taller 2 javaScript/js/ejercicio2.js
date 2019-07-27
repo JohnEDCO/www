@@ -8,8 +8,8 @@
  *    edad: Number
  *    colorCabello: String
  *
- * Autor:
- * Fecha: 
+ * Autor: John Edward Cordoba R
+ * Fecha: 27/07/2019
  *
  */
 

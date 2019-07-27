@@ -3,8 +3,8 @@
  *
  * e.g. [2, 3, 4] -> [4, 6, 8]
  *
- * Autor:
- * Fecha: 
+ * Autor: John Edward Cordoba R
+ * Fecha: 27/07/2019
  *
  */
 
